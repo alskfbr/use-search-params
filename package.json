@@ -1,5 +1,5 @@
 {
-  "name": "use-search-params",
+  "name": "@alskfbr/use-search-params",
   "version": "1.0.0",
   "description": "Wrapped react-router-dom useSearchParams hook.",
   "main": "index.js",
