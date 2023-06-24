@@ -1,0 +1,15 @@
+{
+  "name": "use-search-params",
+  "version": "1.0.0",
+  "description": "Wrapped react-router-dom useSearchParams hook.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ming Han <alskfbr@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "query-string": "^8.1.0",
+    "react-router-dom": "^6.14.0"
+  }
+}
