@@ -10,13 +10,13 @@
   },
   "author": "Ming Han <alskfbr@gmail.com>",
   "license": "ISC",
-  "dependencies": {
-    "query-string": "^8.1.0",
-    "react-router-dom": "^6.14.0"
-  },
   "devDependencies": {
     "@babel/cli": "^7.22.5",
     "@babel/preset-env": "^7.22.5",
     "@babel/preset-react": "^7.22.5"
+  },
+  "peerDependencies": {
+    "query-string": "^8.1.0",
+    "react-router-dom": "^6.14.0"
   }
 }
