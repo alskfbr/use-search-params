@@ -28,5 +28,5 @@ export function useSearchParams(defaultValue) {
   const searchParamsAsString = stringifyObject(urlSearchParamsObject);
   const searchParamsAsObject = objectifyString(searchParamsAsString);
 
-  return [searchParamsAsString, searchParamsAsObject, setSearchParams];
+  return [searchParamsAsObject, searchParamsAsString, setSearchParams];
 }
