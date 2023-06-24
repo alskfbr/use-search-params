@@ -16,7 +16,7 @@ export function useSearchParams(defaultValue) {
   };
 
   const objectifyString = (stringValue) => {
-    const config = { arrayFormat: "index", parseBoolean: true, parseNumbers: true };
+    const config = { arrayFormat: "index", parseBooleans: true, parseNumbers: true };
     return queryString.parse(stringValue, config);
   };
 
