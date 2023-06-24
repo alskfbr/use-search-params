@@ -4,6 +4,7 @@
   "description": "Wrapped react-router-dom useSearchParams hook.",
   "main": "index.js",
   "scripts": {
+    "build": "npx babel src --out-dir dist",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Ming Han <alskfbr@gmail.com>",
@@ -11,5 +12,10 @@
   "dependencies": {
     "query-string": "^8.1.0",
     "react-router-dom": "^6.14.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.22.5",
+    "@babel/preset-env": "^7.22.5",
+    "@babel/preset-react": "^7.22.5"
   }
 }
